@@ -1,9 +1,10 @@
+#Assignment: 1a
 for num in range(2000,3200):
     if(num%7==0):
         if(num%5!=0):
             print(num, end = ",")
 
-
+#Assignment: 1b
 str1 = input("Enter 1st name ")
 for num in range(2000,3200):
     if(num%7==0):
@@ -14,6 +15,7 @@ str3 = str1 + " " + str2
 str4=str3 [::-1]
 print(str4)
 
+#Assignment: 1c
 pi=22/7
 radian = float(input('Radius of sphere: '))
 sur_area = 4 * pi * radian **2
