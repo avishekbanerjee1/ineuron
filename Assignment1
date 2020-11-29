@@ -2,3 +2,20 @@ for num in range(2000,3200):
     if(num%7==0):
         if(num%5!=0):
             print(num, end = ",")
+
+
+str1 = input("Enter 1st name ")
+for num in range(2000,3200):
+    if(num%7==0):
+        if(num%5!=0):
+            print(num, end = ",")
+str2 = input("enter last name ")
+str3 = str1 + " " + str2
+str4=str3 [::-1]
+print(str4)
+
+pi=22/7
+radian = float(input('Radius of sphere: '))
+sur_area = 4 * pi * radian **2
+volume = (4/3) * (pi * radian ** 3)
+print("Volume is: ", volume)
